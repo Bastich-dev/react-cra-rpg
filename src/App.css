@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+background-color: yellowgreen;
+}
+
+
+.container_modes{
+  padding: 20px;
+}
+
+.footeritem{
+  padding-right: 20px;
+  padding-left: 20px;
+border-right: 1px solid black;
+  }
+
+  .pres{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .pres h4{
+width: 50%;
+padding: 15px;
+      }
+
+
+      .partie{
+        background-color: paleturquoise;
+        border-radius: 15px;
+      }
+
+      .player{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: palegreen;
+      }
+      .player b{
+font-size: 24px;
+      }
+
+      .word{
+        background-color: palegoldenrod;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 10px;
+      }
