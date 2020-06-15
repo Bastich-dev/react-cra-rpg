@@ -1,11 +1,18 @@
 .App {
   text-align: center;
+  height: 100%;
+  background-image: url('./19664787.jpg');
+  
 }
 
 .header{
   width: 100%;
-background-color: yellowgreen;
+  height: 10vh;
+background-image: url('./papyrus.jpg');
+margin-bottom: 50px;
+color: sienna;
 }
+
 
 
 .container_modes{
@@ -16,23 +23,32 @@ background-color: yellowgreen;
   padding-right: 20px;
   padding-left: 20px;
 border-right: 1px solid black;
+color: white;
   }
+
+
 
   .pres{
 display: flex;
 justify-content: center;
 align-items: center;
+height: 25vh;
+background-color: #0D1321;
+border-radius: 15px;
+width: 800px;
+color: white;
   }
 
   .pres h4{
-width: 50%;
+width: 80%;
 padding: 15px;
       }
 
 
       .partie{
-        background-color: paleturquoise;
+        background-color: #0D1321;
         border-radius: 15px;
+        color: white;
       }
 
       .player{
@@ -51,3 +67,41 @@ font-size: 24px;
         margin-left: 10px;
         border-radius: 10px;
       }
+
+
+footer{
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+}
+
+.ennemy_input{
+  color: white;
+}
+
+
+.picture_player{
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+  border: 10px solid #253C78;
+  position: absolute;
+  top:-130px
+}
+
+.picture_ennemy{
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+  border: 10px solid #253C78;
+  position: absolute;
+  right: 0px;
+  top:-130px
+}
+
+.picture_img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 5px;
+}
